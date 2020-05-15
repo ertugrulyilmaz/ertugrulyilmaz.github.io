@@ -1,15 +1,12 @@
 {
   "name": "ertugrulyilmaz.github.io",
   "version": "0.1.0",
-  "homepage": "https://ertugrulyilmaz.github.io",
   "private": true,
   "dependencies": {
-    "gh-pages": "^2.0.1",
     "history": "^4.7.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-markdown": "^4.0.4",
-    "react-redux": "^6.0.0",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.1"
   },
@@ -17,9 +14,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -b master -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -1,5 +1,4 @@
 import React, { Suspense, lazy } from 'react';
-import { Provider } from 'react-redux';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import { history } from './helpers';
