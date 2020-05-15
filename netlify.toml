@@ -1,7 +1,7 @@
 [build]
-  command = "yarn build"
-  publish="ertugrulyilmaz.github.io/build"
-  base = "ertugrulyilmaz.github.io"
+  command = "npm run build"
+  publish="/build"
+  base = ""
 
 [[redirects]]
   from = "/*"
