@@ -1,0 +1,14 @@
+[build]
+  command = "yarn build"
+  publish="ertugrulyilmaz.github.io/build"
+  base = "ertugrulyilmaz.github.io"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 404  
