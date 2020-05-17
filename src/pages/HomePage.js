@@ -16,19 +16,7 @@ export default class HomePage extends React.Component {
                 <img src='/img/avatar.jpg' alt='avatar' />
               </div>
               <h1>Ertugrul Yilmaz</h1>
-              <h2>Coder &amp; Entrepreneur &amp; Dad</h2>
-              <ul>
-                <li>
-                  <a href='https://github.com/ertugrulyilmaz/'>
-                    <i className='fab fa-github' />
-                  </a>
-                </li>
-                <li>
-                  <a href='https://www.linkedin.com/in/yilmazertugrul/'>
-                    <i className='fab fa-linkedin' />
-                  </a>
-                </li>
-              </ul>
+              <h2>Coder &amp; Entrepreneur &amp; Dad</h2>              
             </div>
           </section>
         </div>

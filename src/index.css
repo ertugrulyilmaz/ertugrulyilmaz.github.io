@@ -578,3 +578,7 @@ img {
 .footer a {
   color: #1565c0
 }
+
+.certificates img {
+  margin-right: 10px;
+}

@@ -1,42 +1,29 @@
-import React, { lazy } from 'react';
-import { Link } from 'react-router-dom';
-import Footer from '../components/Footer';
-import Navigation from '../components/Navigation';
+import React, { lazy } from "react";
+import { Link } from "react-router-dom";
+import Footer from "../components/Footer";
+import Navigation from "../components/Navigation";
+import posts from "../components/Posts";
+
+const BASE_URL = process.env.PUBLIC_URL;
 
 export default class BlogsPage extends React.Component {
+  listItem = ({ date, title, url }) => (
+    <li>
+      <span>{date}</span>
+      <Link to={BASE_URL + url}>{title}</Link>
+    </li>
+  );
+
   render() {
     return (
-      <main class="wrapper">
+      <main className="wrapper">
         <Navigation />
 
-        <div class="content">
-          <section class="container list">
-            <h1 class="title">Posts</h1>
+        <div className="content">
+          <section className="container list">
+            <h1 className="title">Posts</h1>
 
-            <ul>
-              <li>
-                <span>December 14, 2018</span>
-                <Link
-                  to={
-                    process.env.PUBLIC_URL +
-                    '/posts/installing-bitpay-bitcore-on-ubuntu'
-                  }
-                >
-                  Installing BitPay Bitcore on Ubuntu
-                </Link>
-              </li>
-              <li>
-                <span>October 15, 2018</span>
-                <Link
-                  to={
-                    process.env.PUBLIC_URL +
-                    '/posts/reading-10-page-in-everyday'
-                  }
-                >
-                  Reading 10 Page in Everyday
-                </Link>
-              </li>
-            </ul>
+            <ul>{posts.map(this.listItem)}</ul>
           </section>
         </div>
 

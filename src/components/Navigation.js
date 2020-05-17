@@ -8,7 +8,7 @@ const Navigation = () => (
         Ertugrul Yilmaz
       </Link>
       <input type="checkbox" id="menu-toggle" />
-      <label className="menu-button float-right" for="menu-toggle">
+      <label className="menu-button float-right" htmlFor="menu-toggle">
         <i className="fas fa-bars" />
       </label>
       <ul className="navigation-list">

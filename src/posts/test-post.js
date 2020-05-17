@@ -1,12 +1,6 @@
 import React from 'react';
-import ReactMarkdown from 'react-markdown';
 
 const ThemeDemo = () => {
-  const input = '# This is a header\n\nAnd this is a paragraph';
-  {
-    /* <ReactMarkdown source={input} /> */
-  }
-
   return (
     <div className="content">
       <section className="container post">
@@ -19,7 +13,7 @@ const ThemeDemo = () => {
               <div className="date">
                 <span className="posted-on">
                   <i className="fas fa-calendar" />
-                  <time datetime="2018-10-15T00:00:00Z">December 14, 2018</time>
+                  <time dateTime="2018-10-15T00:00:00Z">December 14, 2018</time>
                 </span>
                 <span className="reading-time">
                   <i className="fas fa-clock" />
