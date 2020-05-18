@@ -1,5 +1,10 @@
 const posts = [
   {
+    date: 'May 18, 2020',
+    title: 'Installing jenv and java on mac os with brew',
+    url: '/posts/install-jenv-and-java'
+  },
+  {
     date: 'May 17, 2020',
     title: 'Merge Sort',
     url: '/posts/merge-sort'
